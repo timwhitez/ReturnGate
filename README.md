@@ -15,7 +15,7 @@ Direct Syscall算是老生常谈的R3层免杀重要技术之一，网上已有�
 
 首先我们进入一个Nt API，
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e514da5-7bf5-4148-9323-ac89a26cebe0/Untitled.png)
+![image](https://user-images.githubusercontent.com/36320909/183412608-1f021d1c-05b8-4d13-a53d-43b5853a6bbd.png)
 
 如上图所示Nt API采用如下的调用方式
 
