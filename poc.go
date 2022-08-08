@@ -44,7 +44,7 @@ func main(){
 
 	windows.WriteProcessMemory(0xffffffffffffffff,nt+18,(*byte)(unsafe.Pointer(&raw[0])),2,nil)
 
-	fmt.Println("recover:")
+	fmt.Println("recovered:")
 	fmt.Printf("\\x0%x", *(*byte)(unsafe.Pointer(nt+18)))
 	fmt.Printf("\\x0%x", *(*byte)(unsafe.Pointer(nt+19)))
 	fmt.Printf("\\x%x\n\n", *(*byte)(unsafe.Pointer(nt+20)))
