@@ -51,7 +51,7 @@ ret
 
 由上可知:
 
-1. EDR hook大部分不会影响到syscallll;ret指令。
+1. EDR hook大部分不会影响到syscall;ret指令。
 2. 在执行syscall指令时sysid位于eax寄存器中。
 3. 使用空参数调用api被记录到的恶意程度较低。
 4. 部分EDR会监控自己的钩子是否被脱钩。
