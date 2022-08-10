@@ -1,5 +1,7 @@
 # ReturnGate返程门
 
+地狱之门带你下地狱，返程之门带sysid回家。
+
 ## 序
 
 Direct Syscall算是老生常谈的R3层免杀重要技术之一，网上已有非常多相关的开源项目，用的人最多的就是HellsGate以及syswhisper。
